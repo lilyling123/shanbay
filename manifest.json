@@ -1,0 +1,23 @@
+{  
+    "name": "李梦克",  
+    "version": "1.0.0",  
+    "manifest_version": 2,  
+    "icons": {  
+        "48": "lg-icon.png"  
+    },
+    "background":{
+    	"scripts":["jquery-3.0.0.min.js","background.js"]
+    },
+    "content_scripts":[{
+    "js": ["jquery-3.0.0.min.js","content.js" ],
+    "matches": [ "<all_urls>" ]
+		}],
+	"browser_action": {  
+    "default_icon": "sm-icon.png", 
+    "default_title": "shanbay", 
+    "default_popup": "popup.html"  
+    },
+    "permissions" : ["tabs","http://localhost/"]
+
+
+}  
