@@ -10,6 +10,9 @@ body{
 h1{
 	text-align: center;
 }
+p{
+	text-indent: 2em;
+}
 .img{
 	text-align:center;
 }
@@ -18,6 +21,11 @@ h1{
 	background-color: rgba(117,208,234,0.9);
 	border:1px solid #75cbd0;
 	display: none;
+	max-width: 300px;
+}
+.wordexplain p{
+	text-indent:0;
+	font-size:14px;
 }
 a{
 	text-decoration: none;
