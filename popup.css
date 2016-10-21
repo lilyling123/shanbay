@@ -1,10 +1,10 @@
 *{margin: 0;padding: 0}
-html{
-	width: 750px;
-}
+
 body{
+	width:700px;
 	font-size:20px;
 	position:relative;
+	background-color:#eee;
 }
 #txt{width: 100%;}
 h1{
@@ -16,6 +16,7 @@ p{
 .img{
 	text-align:center;
 }
+
 .wordexplain{
 	position: absolute;
 	background-color: rgba(117,208,234,0.9);
@@ -30,4 +31,27 @@ p{
 a{
 	text-decoration: none;
 	color: #000;
+}
+.list{
+	position:absolute;
+	height: 600px;
+	overflow: hidden;
+}
+.fl{
+	float: left;
+	width:700px;
+}
+.control{
+	position:fixed;
+	bottom:0; 
+	border:1px solid #75cbd0;
+	padding:4px 6px;
+	background: rgba(117,208,234,0.9);
+	cursor: pointer;
+}
+.control_l{
+	left:282px;
+}
+.control_r{
+	left:357px;
 }
